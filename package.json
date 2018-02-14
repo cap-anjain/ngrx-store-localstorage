@@ -1,6 +1,6 @@
 {
   "name": "ngrx-store-localstorage",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "State and local storage syncing for @ngrx/store",
   "main": "./dist/index.js",
   "scripts": {
@@ -26,12 +26,12 @@
   },
   "homepage": "https://github.com/btroncone/ngrx-store-localstorage#readme",
   "peerDependencies": {
-    "@ngrx/store": "^4.0.0"
+    "@ngrx/store": "^5.0.1"
   },
   "devDependencies": {
-    "@angular/core": "^2.4.7",
+    "@angular/core": "^5.2.2",
     "@ngrx/core": "^1.2.0",
-    "@ngrx/store": "^2.2.1",
+    "@ngrx/store": "^5.0.1",
     "@types/core-js": "^0.9.35",
     "@types/crypto-js": "^3.1.33",
     "@types/jasmine": "^2.5.47",
@@ -42,10 +42,10 @@
     "jasmine": "^2.4.1",
     "jasmine-core": "^2.4.1",
     "rimraf": "^2.5.4",
-    "rxjs": "^5.1.1",
-    "tslint": "^4.0.2",
-    "typescript": "^2.1.4",
-    "zone.js": "^0.7.7"
+    "rxjs": "^5.5.2",
+    "tslint": "~5.7.0",
+    "typescript": "2.6.2",
+    "zone.js": "^0.8.14"
   },
   "typings": "./dist/index.d.ts"
 }
